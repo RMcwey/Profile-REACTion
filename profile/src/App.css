@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/* start my inputs */
 .head-and-nav {
   background-image: url(../public/mountain-wide-one.webp);
   /* background-size: 150px; */
@@ -43,6 +43,17 @@ header {
   display: flex;
 }
 
+h1 {
+  display: flex;
+  font-family: helvetica;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px;
+  color: aliceblue;
+  margin-left: 54px;
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -52,9 +63,31 @@ header {
 }
 
 .nav-item {
-  padding: 5px;
+  padding: 10px;
+  font-size: large;
 }
 
+.nav-item a {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgba(95, 158, 160, .4);
+  border-radius: 7px;
+  background-size: 20px;
+  padding: 4px;
+}
+
+.nav-item a:hover {
+  color: cadetblue;
+  background-color: rgb(240, 248, 255, .4);
+} 
+
+.about-container {
+  background-image: url(../public/mountain-wide-one.webp);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* use for icons or borders behind icons */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

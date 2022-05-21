@@ -87,6 +87,21 @@ h1 {
   height: 100vh;
 }
 
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.card1 {
+  display: flex;
+}
+
+.portfolio {
+  background-image: url(./components/pages/images/cyber-tree.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 /* use for icons or borders behind icons */
 @keyframes App-logo-spin {
   from {

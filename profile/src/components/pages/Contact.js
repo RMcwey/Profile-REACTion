@@ -6,8 +6,8 @@ import { mountain, mountain2 } from './images';
   export default function Contact () {
   return (
     <div>
-      <img className='contact-pic' src={mountain}/>
-      <img className='contact-pic2' src={mountain2}/>
+      <img className='contact-pic' src={mountain} alt='mountain'/>
+      <img className='contact-pic2' src={mountain2} alt='mountain2'/>
       <form className="contact-form">
         <div className='contact-form-text'>
           <h3> Contact Me </h3>

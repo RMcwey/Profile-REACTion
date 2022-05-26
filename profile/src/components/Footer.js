@@ -1,9 +1,28 @@
 import React from 'react';
 import { github, linkedIn, facebook } from './pages/images';
+import { useLocation } from 'react-router';
 
+function changeFooterHue (location) {
+  if (location.hash === '#about') {
+    return "footer-container"
+  } 
+  if (location.hash === '#portfolio') {
+    return "green-hue footer-container"
+  } 
+  if (location.hash === '#contact') {
+    return "summer-hue-footer footer-container"
+  } 
+  if (location.hash === '#resume') {
+    return "summer-hue footer-container"
+  } else {
+    return "foot-container"
+  }
+}
+// {changeHeadandFoot(location)}
 export default function Footer() {
+  const location = useLocation();
   return (
-  <div className='footer-container'>
+  <div className={changeFooterHue(location)}>
     <div className='github-icon'>
       <a href={'https://github.com/RMcwey'}> <img src={github} alt='github'/>
       </a>

@@ -1,10 +1,13 @@
 import React from "react"
+// import { useLocation } from 'react-router-dom'
 import {face} from './images'
 
 export default function About() {
+  // const location = useLocation();
+  // console.log(location, 'location')
   return (
-    
-  <div className="about-container">
+  <div className="about-conatiner">  
+  <div className="about-img"></div>
     <div class="snowflakes" aria-hidden="true">
       <div class="snowflake">
       ❅

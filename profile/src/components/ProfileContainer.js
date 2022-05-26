@@ -8,6 +8,24 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import { useLocation } from 'react-router';
+
+
+function changeHeadandFoot(location) {
+
+  if (location.hash === '#about') {
+    return "head-and-nav"
+  } 
+  if (location.hash === '#portfolio') {
+    return "head-and-nav green-hue"
+  } 
+  if (location.hash === '#contact') {
+    return "summer-hue head-and-nav"
+  } 
+  if (location.hash === '#resume') {
+    return "f-hue head-and-nav"
+  } 
+}
 
 export default function ProfileContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -29,10 +47,10 @@ export default function ProfileContainer() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
-
+  const location = useLocation();
   return (
     <div className='App'>
-      <div className='head-and-nav'>
+      <div className={changeHeadandFoot(location)} >
         <Header />
           <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>

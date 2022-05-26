@@ -13,7 +13,7 @@ function changeFooterHue (location) {
     return "summer-hue-footer footer-container"
   } 
   if (location.hash === '#resume') {
-    return "summer-hue footer-container"
+    return "fall-hue-footer footer-container"
   } else {
     return "foot-container"
   }

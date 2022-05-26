@@ -7,6 +7,8 @@ import shelf from '../images/goodNeighbor.png';
 import github from '../images/github_mark.png'
 import linkedIn from '../images/LI_circle_icon.png'
 import facebook from '../images/fb_black.png'
+import mountain from '../images/cyber-mountain2.jpg'
+import mountain2 from '../images/cyber-mountain4.jpg'
 
 export {
   face,
@@ -17,5 +19,7 @@ export {
   shelf,
   github,
   linkedIn,
-  facebook
+  facebook,
+  mountain,
+  mountain2
 }

@@ -23,7 +23,7 @@ function changeHeadandFoot(location) {
     return "summer-hue head-and-nav"
   } 
   if (location.hash === '#resume') {
-    return "f-hue head-and-nav"
+    return "fall-hue head-and-nav"
   } 
 }
 

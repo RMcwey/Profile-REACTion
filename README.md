@@ -7,6 +7,7 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Live URL](#live-url)
+* [Technology Used](#technology-used)
 * [Usage](#usage)
 * [Credits](#credits)
 * [Questions](#questions)
@@ -16,13 +17,17 @@
 ## Description 
 Welcome to my React portfolio!
 
-I decided I would try to implement a 4 seasons and nature mixed with tech theme. This was difficult to implement and porbably could still use some tweaking here and there, but ultimately, I came up with something I am reasonably proud of! I hope you enjoy and feel free to reach out to me viw the contact page or through the email listed below in this README.
+I decided I would try to implement a 4 seasons and nature mixed with tech theme with no use of frameworks like bootstrap. This was difficult to implement and porbably could still use some tweaking here and there, but ultimately, I came up with something I am reasonably proud of! I hope you enjoy and feel free to reach out to me viw the contact page or through the email listed below in this README.
 
 ## Installation
 
-Simply open the linke
+Simply open the link below
 
 ## Live URL
+
+## Technology Used
+
+JS, Node, REACT, emailjs, collapsible package, photoshop, react-router,   
 
 ## Usage
 

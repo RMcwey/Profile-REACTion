@@ -9,6 +9,10 @@ import linkedIn from '../images/LI_circle_icon.png'
 import facebook from '../images/fb_black.png'
 import mountain from '../images/cyber-mountain2.jpg'
 import mountain2 from '../images/cyber-mountain4.jpg'
+import fall from '../images/cyber-fall3.jpg'
+import field from '../images/cyber-field.jpg'
+import leaf from '../images/cyber-leaf.jpg'
+import leaf2 from '../images/cyber-leaf2.jpg'
 
 export {
   face,
@@ -21,5 +25,9 @@ export {
   linkedIn,
   facebook,
   mountain,
-  mountain2
+  mountain2,
+  fall,
+  field,
+  leaf,
+  leaf2
 }

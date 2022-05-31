@@ -1,15 +1,16 @@
 import React from "react"
 import pdf from './resume/resume.pdf'
+import {fall} from './images'
 
 export default function Resume() {
   return (
   <div className="resume-container">
+    {/* <img src={fall} /> */}
     <div className="resume-link">
-      <a href={pdf} target='_blank' rel="noreferrer"> Click Here to download my Resume </a>
+      <a href={pdf} target='_blank' rel="noreferrer"> Click Here to view my Resume </a>
     </div>
     <div className="resume-skills">
       <h4>Front-End Skills</h4>
-      <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -23,9 +24,8 @@ export default function Resume() {
         <li>Font Awesome</li>
         <li>Photoshop/ photopea</li>
         <li>Application Deployment</li>
-      </ul>
+      
       <h4>Back-End Skills</h4>
-      <ul>
         <li>Javascript</li>
         <li>Node</li>
         <li>SQL</li>
@@ -39,7 +39,6 @@ export default function Resume() {
         <li>Progressive Web Applications (PWAs)</li>
         <li>insomnia</li>
         <li>Jest</li>
-      </ul>
     </div>
   </div>
   );

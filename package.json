@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "react-collapsible": "^2.9.0"
+  }
+}

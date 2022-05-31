@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import '../App.css';
+import '../App.css';
 // import Project from './Project';
 import Header from './Header';
 import Footer from './Footer';
@@ -32,7 +32,8 @@ export default function ProfileContainer() {
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'About') {
+
+    if (currentPage === 'About' || undefined) {
       return <About />;
     }
     if (currentPage === 'Portfolio') {

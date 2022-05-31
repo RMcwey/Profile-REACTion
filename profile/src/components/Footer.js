@@ -3,6 +3,9 @@ import { github, linkedIn, facebook } from './pages/images';
 import { useLocation } from 'react-router';
 
 function changeFooterHue (location) {
+  if (location.hash === "") {
+    return "footer-container"
+  }
   if (location.hash === '#about') {
     return "footer-container"
   } 

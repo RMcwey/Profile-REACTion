@@ -16,10 +16,10 @@ function Project(props) {
       </a>
       <p className='description'>{props.description}</p>
       <div className={props.class}>
-      <a href={props.appLink}> {props.title} </a>
+      <a className='port-link-text' href={props.appLink}> {props.title} </a>
         {/* <p className="second-card-txt"> {props.title}</p> */}
         <div className='port-icon'>
-          <a href={'https://github.com/RMcwey'}> <img src={github} alt='github'/>
+          <a href={props.githubLink}> <img src={github} alt='github'/>
           </a>
         </div>
         {/* <a href={props.githubLink}> Github Link</a> */}
@@ -30,6 +30,3 @@ function Project(props) {
 }
 
 export default Project;
-
-
-{/* <img src={props.src} alt={props.alt}/>  */}

@@ -12,8 +12,10 @@ import { useLocation } from 'react-router';
 
 
 function changeHeadandFoot(location) {
-
-  if (location.hash === '#about') {
+  if (location.hash === ''){
+    return "head-and-nav"
+  }
+  if (location.hash === '#about' ) {
     return "head-and-nav"
   } 
   if (location.hash === '#portfolio') {
@@ -33,7 +35,7 @@ export default function ProfileContainer() {
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
 
-    if (currentPage === 'About' || undefined) {
+    if (currentPage === 'About') {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
@@ -49,6 +51,7 @@ export default function ProfileContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
   const location = useLocation();
+  console.log(location)
   return (
     <div className='App'>
       <div className={changeHeadandFoot(location)} >

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "gh-pages": "^4.0.0",
     "react-collapsible": "^2.9.0"
   }
 }

@@ -25,16 +25,24 @@ Simply open the link below
 
 ## Live URL
 
+https://rmcwey.github.io/Profile-REACTion/ 
+
 ## Technology Used
 
 JS, Node, REACT, emailjs, collapsible package, photoshop, react-router,   
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![rmcwey github io_Profile-REACTion_](https://user-images.githubusercontent.com/95650769/171327716-4d1cb1ee-300a-4233-9259-c3b09b2f706a.png)
 
 
+![rmcwey github io_Profile-REACTion_ (1)](https://user-images.githubusercontent.com/95650769/171327733-21326f30-c8ba-4246-a842-979c8a139c10.png)
 
+
+![rmcwey github io_Profile-REACTion_ (2)](https://user-images.githubusercontent.com/95650769/171327749-6bf3ffd4-cee6-495a-85f3-b34310c69503.png)
+
+
+![rmcwey github io_Profile-REACTion_ (3)](https://user-images.githubusercontent.com/95650769/171327767-372b9a80-24c9-4617-b2c4-88335e29835a.png)
 
 ## Credits
 Ross McWey

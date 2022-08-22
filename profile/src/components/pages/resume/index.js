@@ -1,3 +1,3 @@
-import pdf from '../resume/Updated-Resume.pdf'
+import pdf from '../resume/programming-resume-1.pdf'
 
 export { pdf }

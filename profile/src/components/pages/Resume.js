@@ -1,5 +1,5 @@
 import React from "react"
-import pdf from './resume/programming-resume-1.pdf'
+import pdf from './resume/programming-resume.pdf'
 // import {fall} from './images'
 
 export default function Resume() {

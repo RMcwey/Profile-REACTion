@@ -21,7 +21,7 @@ function changeFooterHue (location) {
     return "foot-container"
   }
 }
-// {changeHeadandFoot(location)}
+
 export default function Footer() {
   const location = useLocation();
   return (

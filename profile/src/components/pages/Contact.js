@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-// import { mountain, mountain2, field } from './images';
 import emailjs from '@emailjs/browser'
 
 function shoot() {

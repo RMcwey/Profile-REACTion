@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-// import Project from './Project';
 import Header from './Header';
 import Footer from './Footer';
 import Navigation from './Navigation';
@@ -30,9 +29,6 @@ function changeHeadandFoot(location) {
 }
 
 export default function ProfileContainer() {
-  // const [currentPage, setCurrentPage] = useState('About');
-
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (location.hash === ''){
       return <About />
@@ -49,10 +45,8 @@ export default function ProfileContainer() {
     if (location.hash === '#resume') {
       return <Resume />;
     }
-    // return <Contact />;
   };
 
-  // const handlePageChange = (page) => setCurrentPage(page);
   const location = useLocation();
   console.log(location)
   return (
@@ -67,18 +61,3 @@ export default function ProfileContainer() {
     
   );
 }
-
-// currentPage={currentPage} handlePageChange={handlePageChange}
-
-// {
-//   return (
-//     <div className="App">
-//       <div className='head-and-nav'>
-//         <Header />
-//         <Navigation />
-//       </div>
-//         <Project />
-//       <Footer />
-//     </div>
-//   );
-// }

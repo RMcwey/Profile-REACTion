@@ -2,12 +2,6 @@ import React from 'react';
 import {github} from './pages/images'
 import Collapsible from 'react-collapsible'
 
-// function CollapseMe() {
-//   if () {
-
-//   }
-// }
-
 function Project(props) {
   return (
     <div className="project-container content">
@@ -17,14 +11,12 @@ function Project(props) {
       <p className='description'>{props.description}</p>
       <div className={props.class}>
       <a className='port-link-text' href={props.appLink}> {props.title} </a>
-        {/* <p className="second-card-txt"> {props.title}</p> */}
         <div className='port-icon'>
           <a href={props.githubLink}> <img src={github} alt='github'/>
           </a>
         </div>
-        {/* <a href={props.githubLink}> Github Link</a> */}
-        </div>
-        </Collapsible>
+      </div>
+      </Collapsible>
     </div>
   );
 }

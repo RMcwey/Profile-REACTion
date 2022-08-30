@@ -5,7 +5,6 @@ import pdf from './resume/programming-resume.pdf'
 export default function Resume() {
   return (
   <div className="resume-container">
-    {/* <img src={fall} /> */}
     <div className="resume-link">
       <a href={pdf} target='_blank' rel="noreferrer"> Click Here to view my Resume </a>
     </div>

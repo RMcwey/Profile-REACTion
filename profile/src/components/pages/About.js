@@ -1,10 +1,7 @@
 import React from "react"
-// import { useLocation } from 'react-router-dom'
 import {face} from './images'
 
 export default function About() {
-  // const location = useLocation();
-  // console.log(location, 'location')
   return (
   <div>  
   <div className="about-img">

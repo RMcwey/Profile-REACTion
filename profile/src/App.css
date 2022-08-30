@@ -175,7 +175,7 @@ h1 {
 }
 
 .content:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.1);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -284,7 +284,7 @@ h1 {
 .card3 {
   width: 50%;
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .card3 img {
@@ -308,7 +308,7 @@ h1 {
 .card4 {
   width: 50%;
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .card4 img {
@@ -325,6 +325,54 @@ h1 {
 }
 
 .card4-text a {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.card5 {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card5 img {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 15px 57px;
+}
+
+.card5-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.card5-text a {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.card6 {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card6 img {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 15px 57px;
+}
+
+.card6-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.card6-text a {
   text-decoration: underline;
   color: aliceblue;
 }
@@ -694,6 +742,19 @@ color: #000;
     width: auto;
     /* margin-bottom: 0; */
   }
+
+  .card5 {
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .card6 {
+    flex-direction: column;
+    width: auto;
+    /* margin-bottom: 0; */
+  }
+
 /* CONTACT */
   .contact-form {
     width:75%;

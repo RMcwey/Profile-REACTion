@@ -9,7 +9,7 @@ const card1= {
   alt: 'logo',
   appLink: "https://www.mitchelwachtel.me/gourmet-guru/",
   githubLink:'https://github.com/mitchelwachtel/gourmet-guru',
-  description: 'Gourmet Guru was our first class project. It was an app designed to keep track of your favorite restaurants and dishes. Fully equipped with a rating system, comment section and api calls to pull information on your restaurants. The other two group members were an utter joy to work with and we all meshed well evenly splitting the work and collaborating consistently.'
+  description: 'Gourmet Guru was our first class project. It was an app designed to keep track of your favorite restaurants and dishes. Fully equipped with a rating system, comment section and API calls to pull information on your restaurants. The other two group members were an utter joy to work with and we all meshed well evenly splitting the work and collaborating consistently.'
 }
 
 const card2= {
@@ -19,7 +19,7 @@ const card2= {
   alt: 'The Shelf',
   appLink: "http://pure-cliffs-09110.herokuapp.com/",
   githubLink:'https://github.com/RMcwey/Good-Neighbor',
-  description: 'The Shelf was a full-stack group project. It was designed to for communities to be able to connect with their neighbors, create accounts and keep track of borrowed items. I was team lead and handled all the back-end with my friend Patrick Ham, a large portion of the front-end and reviewed/ merged every pull request on github along with providing assitance to my team members.'
+  description: 'The Shelf was a full stack group project. It was designed to for communities to be able to connect with their neighbors, create accounts and keep track of borrowed items. I was team lead and handled all the back end with my friend Patrick Ham, a large portion of the front-end and reviewed/ merged every pull request on GitHub along with providing assistance to my team members.'
 }
 
 const card3= {
@@ -29,7 +29,7 @@ const card3= {
   alt: 'Re-Engage',
   appLink: "https://warm-gorge-10209.herokuapp.com/",
   githubLink:'https://github.com/RMcwey/Re-engage',
-  description: 'Re-Engage was our final group project. This application helps the user to memorize or further engage with any desired text that either they upload or has been uploaded by other users. It creates a flashcard style game that finds parts of speech and removes random useful words, requiring the user to select the right word to move forward. It saves the user progress and is siplayed in their account page. It also has a built-in Bible app that I developed.'
+  description: 'Re-Engage was our final group project. This application helps the user to memorize or further engage with any desired text that either they upload or has been uploaded by other users. It creates a flashcard style game that finds parts of speech and removes random useful words, requiring the user to select the right word to move forward. It saves the user progress and is displayed in their account page. It also has a built-in Bible app that I developed.'
 }
 
 const card4= {
@@ -39,7 +39,7 @@ const card4= {
   alt: 'weather',
   appLink: "https://rmcwey.github.io/Weather-Forecaster/",
   githubLink:'https://github.com/RMcwey/Weather-Forecaster',
-  description: 'This was a custom weather app that I developed to use third party API calls to OpenWeather API. It validates user input so that as long as the spelling is correct, the information can be retrieved. It starts by returning gps coordinates that the app then converts to the city name and state using another API call. The app saves previous searches to the local storage and also updates the icons for the current weather and color for the UV index. The clear button will clear the data from local storage.'
+  description: 'This was a custom weather app that I developed to use third party API calls to OpenWeather API. It validates user input so that as long as the spelling is correct, the information can be retrieved. It starts by returning GPS coordinates that the app then converts to the city name and state using another API call. The app saves previous searches to the local storage and also updates the icons for the current weather and color for the UV index. The clear button will clear the data from local storage.'
 }
 
 const card5= {
@@ -49,7 +49,7 @@ const card5= {
   alt: 'profile generator',
   appLink: "https://rmcwey.github.io/Team-Profile-Generator/",
   githubLink:'https://github.com/RMcwey/Team-Profile-Generator',
-  description: "This is a back-end application that mainly uses JavaScript, Node.js, JQuery, fs, inquirer, jest, bootstrap, and fontawesome. It generates an HTML page with all of the user's team, their names, position, employee ID, email addresses and links to their github pages. The user will need to clone the repo to their device, install and then run the program. Once it runs, they will be prompted in their terminal to enter in the desired information. Once completed, the HTML page will be generated."
+  description: "This is a back-end application that mainly uses JavaScript, Node.js, jQuery, fs, inquirer, jest, Bootstrap, and fontawesome. It generates an HTML page with all the user's team, their names, position, employee ID, email addresses and links to their GitHub pages. The user will need to clone the repo to their device, install and then run the program. Once it runs, they will be prompted in their terminal to enter in the desired information. Once completed, the HTML page will be generated."
 }
 
 const card6= {

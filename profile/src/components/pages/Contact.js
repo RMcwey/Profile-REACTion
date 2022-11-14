@@ -5,8 +5,7 @@ function shoot() {
 
     alert("Email sent to Ross McWey");
   }
-  // First we check to see if "edit" prop exists. If not, we render the normal form
-  // If the prop "edit" exists, we know to render the update form instead
+  
   export default function Contact() {
     const form = useRef();
 

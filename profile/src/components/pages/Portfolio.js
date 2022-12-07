@@ -7,8 +7,8 @@ const card1= {
   title: "Gourmet Guru",
   src: gourmet,
   alt: 'logo',
-  appLink: "https://www.mitchelwachtel.me/gourmet-guru/",
-  githubLink:'https://github.com/mitchelwachtel/gourmet-guru',
+  appLink: "https://rmcwey.github.io/gourmet-guru/",
+  githubLink:'https://github.com/RMcwey/gourmet-guru',
   description: 'Gourmet Guru was our first class project. It was an app designed to keep track of your favorite restaurants and dishes. Fully equipped with a rating system, comment section and API calls to pull information on your restaurants. The other two group members were an utter joy to work with and we all meshed well evenly splitting the work and collaborating consistently.'
 }
 
@@ -27,7 +27,7 @@ const card3= {
   title: "Re-Engage",
   src: reEngage,
   alt: 'Re-Engage',
-  appLink: "https://warm-gorge-10209.herokuapp.com/",
+  appLink: "https://radiant-inlet-31790.herokuapp.com/",
   githubLink:'https://github.com/RMcwey/Re-engage',
   description: 'Re-Engage was our final group project. This application helps the user to memorize or further engage with any desired text that either they upload or has been uploaded by other users. It creates a flashcard style game that finds parts of speech and removes random useful words, requiring the user to select the right word to move forward. It saves the user progress and is displayed in their account page. It also has a built-in Bible app that I developed.'
 }
